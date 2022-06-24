@@ -34,9 +34,9 @@ def employee_list(request):
     return render(request, "employee_register/employee_list.html", context)
 
 
-def employee_form(request, id=0):
+def employee_form(request, id):
     if request.method == "GET":
-        if id == 0:
+        if id == None:
             form = EmployeeForm()
         else:
             employee = Employee.objects.get(pk=id)

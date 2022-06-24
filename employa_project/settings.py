@@ -24,6 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+# SECRET_KEY ="os.environ[%$32%""]"
 SECRET_KEY = os.environ["SECRET_KEY"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -94,6 +95,9 @@ WSGI_APPLICATION = 'employa_project.wsgi.application'
 #     }
 # }
 
+DATABASES = {
+    "default": dj_database_url.config()
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -136,9 +140,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-DATABASES = {
-    "default": dj_database_url.config()
-}
 
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
@@ -224,7 +225,7 @@ DJOSER = {
 
 
 
-ALLOWED_HOSTS=["https://sh-startup3-project.herokuapp.com"]
+# ALLOWED_HOSTS=["https://sh-startup3-project.herokuapp.com"]
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 django_on_heroku.settings(locals())
