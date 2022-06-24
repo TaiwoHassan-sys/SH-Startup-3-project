@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django-crispy-forms = "*"
+django = "*"
+coreapi = "*"
+pyyaml = "*"
+djangorestframework-simplejwt = "*"
+djangorestframework = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

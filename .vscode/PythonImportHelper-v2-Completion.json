@@ -1,0 +1,578 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "include_docs_urls",
+        "importPath": "rest_framework.documentation",
+        "description": "rest_framework.documentation",
+        "isExtraImport": true,
+        "detail": "rest_framework.documentation",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_view",
+        "importPath": "rest_framework.schemas",
+        "description": "rest_framework.schemas",
+        "isExtraImport": true,
+        "detail": "rest_framework.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "employa_project.asgi",
+        "description": "employa_project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "employa_project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-t-d-jft3u=p(2okx=x1j!qnx^*cwk+pl7_&9q-j25-99qpxx&('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-t-d-jft3u=p(2okx=x1j!qnx^*cwk+pl7_&9q-j25-99qpxx&('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # ",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # \n    # \n    \"rest_framework\",",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'employa_project.urls'",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "ROOT_URLCONF = 'employa_project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, \"templates\")],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, \"templates\")],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'employa_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    # \"DEFAULT_AUTHENTICATION_CLASSES\": [",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    # \"DEFAULT_AUTHENTICATION_CLASSES\": [\n    #     \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    # ],\n    #     'DEFAULT_RENDERER_CLASSES': [",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    # \"DEFAULT_AUTHENTICATION_CLASSES\": [\n    #     \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    # ],\n    #     'DEFAULT_RENDERER_CLASSES': [\n    #         'rest_framework.renderers.JSONRenderer',",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=60),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1500),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": False,\n    \"ALGORITHM\": \"HS256\",\n    \"VERIFYING_KEY\": None,\n    \"AUDIENCE\": None,\n    \"ISSUER\": None,",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "employa_project.urls",
+        "description": "employa_project.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", TemplateView.as_view(template_name =\"index.htm\"), name=\"index\"),\n    path('admin/', admin.site.urls),\n    path('employee/',include('employee_register.urls')),\n    path(\"docs/\", include_docs_urls(title=\"PeersApp API\")),\n    path(\n        \"schema/\",\n        get_schema_view(\n            title=\"Employee\", description=\"API for the Employee\", version=\"1.0.0\"\n        ),",
+        "detail": "employa_project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "employa_project.wsgi",
+        "description": "employa_project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "employa_project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "employee_register.migrations.0001_initial",
+        "description": "employee_register.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Vacation',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('vac_request', models.CharField(max_length=50)),",
+        "detail": "employee_register.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeRegisterConfig",
+        "kind": 6,
+        "importPath": "employee_register.apps",
+        "description": "employee_register.apps",
+        "peekOfCode": "class EmployeeRegisterConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'employee_register'",
+        "detail": "employee_register.apps",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeForm",
+        "kind": 6,
+        "importPath": "employee_register.forms",
+        "description": "employee_register.forms",
+        "peekOfCode": "class EmployeeForm(forms.ModelForm):\n    class Meta:\n        model = Employee\n        fields = ('fullname','mobile','emp_code')\n        labels = {\n            'fullname':'Full Name',\n            'emp_code':'EMP. Code'\n        }\n    def __init__(self, *args, **kwargs):\n        super(EmployeeForm,self).__init__(*args, **kwargs)",
+        "detail": "employee_register.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Vacation",
+        "kind": 6,
+        "importPath": "employee_register.models",
+        "description": "employee_register.models",
+        "peekOfCode": "class Vacation(models.Model):\n    vac_request = models.CharField(max_length=50)\n    def __str__(self):\n        return self.vac_request\nclass Employee(models.Model):\n    fullname = models.CharField(max_length=100)\n    emp_code = models.CharField(max_length=3)\n    mobile= models.CharField(max_length=15)\n    vac_request= models.ForeignKey(Vacation,on_delete=models.CASCADE)",
+        "detail": "employee_register.models",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "employee_register.models",
+        "description": "employee_register.models",
+        "peekOfCode": "class Employee(models.Model):\n    fullname = models.CharField(max_length=100)\n    emp_code = models.CharField(max_length=3)\n    mobile= models.CharField(max_length=15)\n    vac_request= models.ForeignKey(Vacation,on_delete=models.CASCADE)",
+        "detail": "employee_register.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "employee_register.serializers",
+        "description": "employee_register.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = [\"id\", \"username\", \"email\", \"password\"]\nclass EmployeeSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Employee\n        fields = [\"id\", \"fullname\", \"emp_code\", \"mobile\", \"vac_request\"]",
+        "detail": "employee_register.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeSerializer",
+        "kind": 6,
+        "importPath": "employee_register.serializers",
+        "description": "employee_register.serializers",
+        "peekOfCode": "class EmployeeSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Employee\n        fields = [\"id\", \"fullname\", \"emp_code\", \"mobile\", \"vac_request\"]",
+        "detail": "employee_register.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "employee_register.urls",
+        "description": "employee_register.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"api\", views.EmployeeModelViewSet, basename=\"api\")\nrouter.register(\"users\", views.UserModelViewSet, basename=\"users\")\nurlpatterns = [\n    path('', views.employee_form,name='employee_insert'), # get and post req. for insert operation\n    path('<int:id>/', views.employee_form,name='employee_update'), # get and post req. for update operation\n    path('delete/<int:id>/',views.employee_delete,name='employee_delete'),\n    path('list/',views.employee_list,name='employee_list') # get req. to retrieve and display all records\n]\nurlpatterns += router.urls",
+        "detail": "employee_register.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "employee_register.urls",
+        "description": "employee_register.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.employee_form,name='employee_insert'), # get and post req. for insert operation\n    path('<int:id>/', views.employee_form,name='employee_update'), # get and post req. for update operation\n    path('delete/<int:id>/',views.employee_delete,name='employee_delete'),\n    path('list/',views.employee_list,name='employee_list') # get req. to retrieve and display all records\n]\nurlpatterns += router.urls",
+        "detail": "employee_register.urls",
+        "documentation": {}
+    },
+    {
+        "label": "UserModelViewSet",
+        "kind": 6,
+        "importPath": "employee_register.views",
+        "description": "employee_register.views",
+        "peekOfCode": "class UserModelViewSet(ModelViewSet):\n    queryset = User.objects.all()\n    serializer_class = UserSerializer\nclass EmployeeModelViewSet(ModelViewSet):\n    queryset = Employee.objects.all()\n    serializer_class = EmployeeSerializer\ndef employee_list(request):\n    context = {'employee_list': Employee.objects.all()}\n    return render(request, \"employee_register/employee_list.html\", context)\ndef employee_form(request, id=0):",
+        "detail": "employee_register.views",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeModelViewSet",
+        "kind": 6,
+        "importPath": "employee_register.views",
+        "description": "employee_register.views",
+        "peekOfCode": "class EmployeeModelViewSet(ModelViewSet):\n    queryset = Employee.objects.all()\n    serializer_class = EmployeeSerializer\ndef employee_list(request):\n    context = {'employee_list': Employee.objects.all()}\n    return render(request, \"employee_register/employee_list.html\", context)\ndef employee_form(request, id=0):\n    if request.method == \"GET\":\n        if id == 0:\n            form = EmployeeForm()",
+        "detail": "employee_register.views",
+        "documentation": {}
+    },
+    {
+        "label": "employee_list",
+        "kind": 2,
+        "importPath": "employee_register.views",
+        "description": "employee_register.views",
+        "peekOfCode": "def employee_list(request):\n    context = {'employee_list': Employee.objects.all()}\n    return render(request, \"employee_register/employee_list.html\", context)\ndef employee_form(request, id=0):\n    if request.method == \"GET\":\n        if id == 0:\n            form = EmployeeForm()\n        else:\n            employee = Employee.objects.get(pk=id)\n            form = EmployeeForm(instance=employee)",
+        "detail": "employee_register.views",
+        "documentation": {}
+    },
+    {
+        "label": "employee_form",
+        "kind": 2,
+        "importPath": "employee_register.views",
+        "description": "employee_register.views",
+        "peekOfCode": "def employee_form(request, id=0):\n    if request.method == \"GET\":\n        if id == 0:\n            form = EmployeeForm()\n        else:\n            employee = Employee.objects.get(pk=id)\n            form = EmployeeForm(instance=employee)\n        return render(request, \"employee_register/employee_form.html\", {'form': form})\n    else:\n        if id == 0:",
+        "detail": "employee_register.views",
+        "documentation": {}
+    },
+    {
+        "label": "employee_delete",
+        "kind": 2,
+        "importPath": "employee_register.views",
+        "description": "employee_register.views",
+        "peekOfCode": "def employee_delete(request,id):\n    employee = Employee.objects.get(pk=id)\n    employee.delete()\n    return redirect('/employee/list')",
+        "detail": "employee_register.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'employa_project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
