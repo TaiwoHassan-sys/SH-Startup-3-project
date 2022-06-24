@@ -12,6 +12,9 @@ djangorestframework-simplejwt = "*"
 djangorestframework = "*"
 pillow = "*"
 djoser = "*"
+dj-database-url = "*"
+gunicorn = "*"
+django-on-heroku = "*"
 
 [dev-packages]
 

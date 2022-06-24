@@ -17,6 +17,24 @@
         "documentation": {}
     },
     {
+        "label": "django_on_heroku",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django_on_heroku",
+        "description": "django_on_heroku",
+        "detail": "django_on_heroku",
+        "documentation": {}
+    },
+    {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -272,7 +290,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-t-d-jft3u=p(2okx=x1j!qnx^*cwk+pl7_&9q-j25-99qpxx&('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-t-d-jft3u=p(2okx=x1j!qnx^*cwk+pl7_&9q-j25-99qpxx&('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# ALLOWED_HOSTS = []\nALLOWED_HOSTS = [\"*\"]\n# Application definition",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -281,7 +299,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-t-d-jft3u=p(2okx=x1j!qnx^*cwk+pl7_&9q-j25-99qpxx&('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-t-d-jft3u=p(2okx=x1j!qnx^*cwk+pl7_&9q-j25-99qpxx&('\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# ALLOWED_HOSTS = []\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -290,7 +308,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = True\n# ALLOWED_HOSTS = []\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -299,7 +317,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # ",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # ",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -344,16 +362,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'employa_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
-        "detail": "employa_project.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DATABASES",
-        "kind": 5,
-        "importPath": "employa_project.settings",
-        "description": "employa_project.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "WSGI_APPLICATION = 'employa_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.0/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\n# Password validation",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -380,7 +389,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nDATABASES = {",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -389,7 +398,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nDATABASES = {\n    \"default\": dj_database_url.config()",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -398,7 +407,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nDATABASES = {\n    \"default\": dj_database_url.config()\n}",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -407,7 +416,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nDATABASES = {\n    \"default\": dj_database_url.config()\n}\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'\n# Configure Django App for Heroku.",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -416,7 +425,25 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ],\n    #     'DEFAULT_RENDERER_CLASSES': [",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nDATABASES = {\n    \"default\": dj_database_url.config()\n}\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'\n# Configure Django App for Heroku.\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": dj_database_url.config()\n}\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'\n# Configure Django App for Heroku.\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'\n# Configure Django App for Heroku.\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -452,7 +479,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "EMAIL_BACKEND = \"django.core.mail.backends.console.EmailBackend\"",
+        "peekOfCode": "EMAIL_BACKEND = \"django.core.mail.backends.console.EmailBackend\"\ndjango_on_heroku.settings(locals())",
         "detail": "employa_project.settings",
         "documentation": {}
     },

@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 import os
+import django_on_heroku
+import dj_database_url
 from datetime import timedelta
 from pathlib import Path
 
@@ -27,7 +29,8 @@ SECRET_KEY = 'django-insecure-t-d-jft3u=p(2okx=x1j!qnx^*cwk+pl7_&9q-j25-99qpxx&(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -83,12 +86,12 @@ WSGI_APPLICATION = 'employa_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 # Password validation
@@ -131,6 +134,16 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+DATABASES = {
+    "default": dj_database_url.config()
+}
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+# Configure Django App for Heroku.
 
 REST_FRAMEWORK = {
     # "COERCE_DECIMAL_TO_STRING": False,
@@ -212,3 +225,5 @@ DJOSER = {
 
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+django_on_heroku.settings(locals())
