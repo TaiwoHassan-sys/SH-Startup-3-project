@@ -30,6 +30,7 @@ SECRET_KEY = os.environ["SECRET_KEY"]
 DEBUG = True
 
 # ALLOWED_HOSTS = []
+
 ALLOWED_HOSTS = ["*"]
 
 
@@ -223,7 +224,7 @@ DJOSER = {
 
 
 
-
+ALLOWED_HOSTS=["https://sh-startup3-project.herokuapp.com"]
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 django_on_heroku.settings(locals())
