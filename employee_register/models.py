@@ -2,10 +2,6 @@ from django.db import models
 
 # Create your models here.
 
-from django.db import models
-
-# Create your models here.
-
 class Vacation(models.Model):
     vac_request = models.CharField(max_length=50)
 
