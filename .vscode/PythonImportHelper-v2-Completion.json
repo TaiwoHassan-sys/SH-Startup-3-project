@@ -234,6 +234,22 @@
         "documentation": {}
     },
     {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -391,7 +407,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    # \"DEFAULT_AUTHENTICATION_CLASSES\": [",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -400,7 +416,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    # \"DEFAULT_AUTHENTICATION_CLASSES\": [\n    #     \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    # ],\n    #     'DEFAULT_RENDERER_CLASSES': [",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nREST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ],\n    #     'DEFAULT_RENDERER_CLASSES': [",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -409,7 +425,7 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    # \"DEFAULT_AUTHENTICATION_CLASSES\": [\n    #     \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    # ],\n    #     'DEFAULT_RENDERER_CLASSES': [\n    #         'rest_framework.renderers.JSONRenderer',",
+        "peekOfCode": "REST_FRAMEWORK = {\n    # \"COERCE_DECIMAL_TO_STRING\": False,\n    # \"DEFAULT_PERMISSION_CLASSES\": [\n    #     \"rest_framework.permissions.AllowAny\"\n    # ],\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ],\n    #     'DEFAULT_RENDERER_CLASSES': [\n    #         'rest_framework.renderers.JSONRenderer',",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -418,7 +434,25 @@
         "kind": 5,
         "importPath": "employa_project.settings",
         "description": "employa_project.settings",
-        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=60),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1500),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": False,\n    \"ALGORITHM\": \"HS256\",\n    \"VERIFYING_KEY\": None,\n    \"AUDIENCE\": None,\n    \"ISSUER\": None,",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=20),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1500),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": False,\n    \"ALGORITHM\": \"HS256\",\n    \"VERIFYING_KEY\": None,\n    \"AUDIENCE\": None,\n    \"ISSUER\": None,",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DJOSER",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "DJOSER = {\n    \"PASSWORD_RESET_CONFIRM_URL\": \"#/password/reset/confirm/{uid}/{token}\",\n    \"USERNAME_RESET_CONFIRM_URL\": \"#/username/reset/confirm/{uid}/{token}\",\n    \"ACTIVATION_URL\": \"#/activate/{uid}/{token}\",\n    \"SEND_ACTIVATION_EMAIL\": True,\n    \"SERIALIZERS\": {\n        \"activation\": \"djoser.serializers.ActivationSerializer\",\n        \"password_reset\": \"djoser.serializers.SendEmailResetSerializer\",\n        \"password_reset_confirm\": \"djoser.serializers.PasswordResetConfirmSerializer\",\n        \"password_reset_confirm_retype\": \"djoser.serializers.PasswordResetConfirmRetypeSerializer\",",
+        "detail": "employa_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "employa_project.settings",
+        "description": "employa_project.settings",
+        "peekOfCode": "EMAIL_BACKEND = \"django.core.mail.backends.console.EmailBackend\"",
         "detail": "employa_project.settings",
         "documentation": {}
     },
@@ -427,7 +461,7 @@
         "kind": 5,
         "importPath": "employa_project.urls",
         "description": "employa_project.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", TemplateView.as_view(template_name =\"index.htm\"), name=\"index\"),\n    path('admin/', admin.site.urls),\n    path('employee/',include('employee_register.urls')),\n    path(\"docs/\", include_docs_urls(title=\"PeersApp API\")),\n    path(\n        \"schema/\",\n        get_schema_view(\n            title=\"Employee\", description=\"API for the Employee\", version=\"1.0.0\"\n        ),",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", TemplateView.as_view(template_name =\"index.htm\"), name=\"index\"),\n    path('admin/', admin.site.urls),\n    path('employee/',include('employee_register.urls')),\n    path('auth/', include('djoser.urls')),\n    path(\"docs/\", include_docs_urls(title=\"Employees API\")),\n    path(\n        \"schema/\",\n        get_schema_view(\n            title=\"Employee\", description=\"API for the Employee\", version=\"1.0.0\"",
         "detail": "employa_project.urls",
         "documentation": {}
     },
@@ -490,7 +524,16 @@
         "kind": 6,
         "importPath": "employee_register.serializers",
         "description": "employee_register.serializers",
-        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = [\"id\", \"username\", \"email\", \"password\"]\nclass EmployeeSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Employee\n        fields = [\"id\", \"fullname\", \"emp_code\", \"mobile\", \"vac_request\"]",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(style={\"input_type\": \"password\"}, write_only=True)\n    class Meta:\n        model = User\n        fields = [\"id\", \"username\", \"email\", \"password\"]\n    def create(self, validated_data):\n        return User.objects.create_user(**validated_data)\nclass VacationSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Vacation",
+        "detail": "employee_register.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "VacationSerializer",
+        "kind": 6,
+        "importPath": "employee_register.serializers",
+        "description": "employee_register.serializers",
+        "peekOfCode": "class VacationSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Vacation\n        fields = [\"id\", \"vac_request\"]\nclass EmployeeSerializer(serializers.ModelSerializer):\n    # vac_request = VacationSerializer()\n    class Meta:\n        model = Employee\n        fields = [\"id\", \"fullname\", \"emp_code\", \"mobile\", \"vac_request\"]",
         "detail": "employee_register.serializers",
         "documentation": {}
     },
@@ -499,7 +542,7 @@
         "kind": 6,
         "importPath": "employee_register.serializers",
         "description": "employee_register.serializers",
-        "peekOfCode": "class EmployeeSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Employee\n        fields = [\"id\", \"fullname\", \"emp_code\", \"mobile\", \"vac_request\"]",
+        "peekOfCode": "class EmployeeSerializer(serializers.ModelSerializer):\n    # vac_request = VacationSerializer()\n    class Meta:\n        model = Employee\n        fields = [\"id\", \"fullname\", \"emp_code\", \"mobile\", \"vac_request\"]",
         "detail": "employee_register.serializers",
         "documentation": {}
     },
@@ -508,7 +551,7 @@
         "kind": 5,
         "importPath": "employee_register.urls",
         "description": "employee_register.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"api\", views.EmployeeModelViewSet, basename=\"api\")\nrouter.register(\"users\", views.UserModelViewSet, basename=\"users\")\nurlpatterns = [\n    path('', views.employee_form,name='employee_insert'), # get and post req. for insert operation\n    path('<int:id>/', views.employee_form,name='employee_update'), # get and post req. for update operation\n    path('delete/<int:id>/',views.employee_delete,name='employee_delete'),\n    path('list/',views.employee_list,name='employee_list') # get req. to retrieve and display all records\n]\nurlpatterns += router.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"users\", views.UserModelViewSet, basename=\"users\")\nrouter.register(\"api\", views.EmployeeModelViewSet, basename=\"api\")\nrouter.register(\"vac\", views.VacationModelViewSet, basename=\"vac\")\nurlpatterns = [\n    path('', views.employee_form,name='employee_insert'), # get and post req. for insert operation\n    path('<int:id>/', views.employee_form,name='employee_update'), # get and post req. for update operation\n    path('delete/<int:id>/',views.employee_delete,name='employee_delete'),\n    path('list/',views.employee_list,name='employee_list') # get req. to retrieve and display all records\n]",
         "detail": "employee_register.urls",
         "documentation": {}
     },
@@ -526,7 +569,7 @@
         "kind": 6,
         "importPath": "employee_register.views",
         "description": "employee_register.views",
-        "peekOfCode": "class UserModelViewSet(ModelViewSet):\n    queryset = User.objects.all()\n    serializer_class = UserSerializer\nclass EmployeeModelViewSet(ModelViewSet):\n    queryset = Employee.objects.all()\n    serializer_class = EmployeeSerializer\ndef employee_list(request):\n    context = {'employee_list': Employee.objects.all()}\n    return render(request, \"employee_register/employee_list.html\", context)\ndef employee_form(request, id=0):",
+        "peekOfCode": "class UserModelViewSet(ModelViewSet):\n    queryset = User.objects.all()\n    serializer_class = UserSerializer\n    permission_classes = [AllowAny]\n    # AllowAny means any users can access the data\n    # IsAuthenticatedOrReadOnly means only authenticated users can access the data\nclass EmployeeModelViewSet(ModelViewSet):\n    queryset = Employee.objects.all()\n    serializer_class = EmployeeSerializer\n    permission_classes = [AllowAny]",
         "detail": "employee_register.views",
         "documentation": {}
     },
@@ -535,7 +578,16 @@
         "kind": 6,
         "importPath": "employee_register.views",
         "description": "employee_register.views",
-        "peekOfCode": "class EmployeeModelViewSet(ModelViewSet):\n    queryset = Employee.objects.all()\n    serializer_class = EmployeeSerializer\ndef employee_list(request):\n    context = {'employee_list': Employee.objects.all()}\n    return render(request, \"employee_register/employee_list.html\", context)\ndef employee_form(request, id=0):\n    if request.method == \"GET\":\n        if id == 0:\n            form = EmployeeForm()",
+        "peekOfCode": "class EmployeeModelViewSet(ModelViewSet):\n    queryset = Employee.objects.all()\n    serializer_class = EmployeeSerializer\n    permission_classes = [AllowAny]\nclass VacationModelViewSet(ModelViewSet):\n    queryset = Vacation.objects.all()\n    serializer_class = VacationSerializer\n    permission_classes = [AllowAny]\ndef employee_list(request):\n    context = {'employee_list': Employee.objects.all()}",
+        "detail": "employee_register.views",
+        "documentation": {}
+    },
+    {
+        "label": "VacationModelViewSet",
+        "kind": 6,
+        "importPath": "employee_register.views",
+        "description": "employee_register.views",
+        "peekOfCode": "class VacationModelViewSet(ModelViewSet):\n    queryset = Vacation.objects.all()\n    serializer_class = VacationSerializer\n    permission_classes = [AllowAny]\ndef employee_list(request):\n    context = {'employee_list': Employee.objects.all()}\n    return render(request, \"employee_register/employee_list.html\", context)\ndef employee_form(request, id=0):\n    if request.method == \"GET\":\n        if id == 0:",
         "detail": "employee_register.views",
         "documentation": {}
     },

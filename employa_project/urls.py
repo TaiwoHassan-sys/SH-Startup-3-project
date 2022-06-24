@@ -8,7 +8,8 @@ urlpatterns = [
     path("", TemplateView.as_view(template_name ="index.htm"), name="index"),
     path('admin/', admin.site.urls),
     path('employee/',include('employee_register.urls')),
-    path("docs/", include_docs_urls(title="PeersApp API")),
+    path('auth/', include('djoser.urls')),
+    path("docs/", include_docs_urls(title="Employees API")),
     path(
         "schema/",
         get_schema_view(
@@ -17,3 +18,4 @@ urlpatterns = [
         name="employee-schema",
     ),
 ]
+
