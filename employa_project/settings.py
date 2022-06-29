@@ -3,7 +3,6 @@ import django_on_heroku
 import dj_database_url
 from datetime import timedelta
 from pathlib import Path
-from employa_project.settings import DEBUG
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -84,10 +83,10 @@ if DEBUG:
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
-
-DATABASES = {
-    "default": dj_database_url.config()
-}
+else:
+    DATABASES = {
+        "default": dj_database_url.config()
+    }
 
 
 # Password validation
@@ -205,3 +204,7 @@ DJOSER = {
     },
 }
 
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+
+django_on_heroku.settings(locals())
