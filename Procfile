@@ -1,1 +1,1 @@
-web: gunicorn PeersApp.wsgi
+web: gunicorn employa_project.wsgi
