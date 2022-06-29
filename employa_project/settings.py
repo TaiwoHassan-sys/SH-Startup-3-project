@@ -3,6 +3,7 @@ import django_on_heroku
 import dj_database_url
 from datetime import timedelta
 from pathlib import Path
+from employa_project.settings import DEBUG
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -12,14 +13,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = 'django-insecure-$r_-6_mh)6%'
 
 
 # SECRET_KEY = os.environ["SECRET_KEY"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = True
+DEBUG = False
+
 
 # ALLOWED_HOSTS = []
 
@@ -77,6 +78,8 @@ WSGI_APPLICATION = 'employa_project.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 if DEBUG:
+    SECRET_KEY = 'django-insecure-$r_-6_mh)6%'
+
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
@@ -84,9 +87,12 @@ if DEBUG:
         }
     }
 else:
+    SECRET_KEY = os.environ["SECRET_KEY"]
+
     DATABASES = {
         "default": dj_database_url.config()
     }
+
 
 
 # Password validation
