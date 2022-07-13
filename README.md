@@ -9,3 +9,4 @@ Each startup is expected to have a project to build. employ-a is our project. I 
 
 https://sh-startup3-project.herokuapp.com/docs/ - This is the API documentation for the employ-a.
 
+The API is already hosted on heroku cloud hosting platform.
